@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Weather Information</title>
+   
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<div class="jumbotron" style="margin-bottom:0px; color:green; background-color: #4aalf3;">
+   <h2 class="text-center" style="font-size:50px; font-weight:600;"> Weather</h2> 
+</div>
+
+<div class="container" style="height: 850px;">
+     <div class="row" style="margin-bottom:20px;">
+         <h3 class="text-center text-primary">Enter City Name</h3>
+         <span id="error"></span>
+    </div>
+    
+    <div class="row form-group form-inline" id="rowDiv">
+        <input type="text" name="city" id="city" class="form-control" placeholder="City Name">
+        <button id="submitWeather" class="btn btn-primary">Search City</button>
+    </div>
+    
+    <div id="show"></div>
+    
+    </div>
+    
+    <div class="footer">
+       <div class="container">
+          <div class="row text-center" style="padding-top:30px;">
+           <p style="color: red">copyright &copy; 3 Days Weather App</p>
+           </div>        
+        </div>
+    </div>
+ 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="Shivam.js"></script>
+    
+    
+</body>
+</html>
